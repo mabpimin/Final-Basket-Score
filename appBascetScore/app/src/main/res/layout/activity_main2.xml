@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bagus.mabpimin.appbascetscore.Main2Activity">
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score akhir pertandingan Basket"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/scorea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Score Tim A = 0"
+        android:layout_below="@id/tag"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/scoreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Score Tim B = 0"
+        android:layout_below="@id/scorea"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>
